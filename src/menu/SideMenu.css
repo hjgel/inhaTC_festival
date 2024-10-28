@@ -31,12 +31,14 @@
   .menu-content ul {
     list-style: none;
     padding: 20px;
-  }
-  
-  .menu-content li {
+}
+
+.menu-content li {
     margin: 15px 0;
     cursor: pointer;
     font-size: 18px;
-  }
-
+    padding-left: 10px; /* 텍스트와 아이콘 왼쪽 여백 */
+    transform: translateX(30px); /* 오른쪽으로 20px 이동 */
+    color: white; /* 텍스트 색상 설정 */
+}
   
