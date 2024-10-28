@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import SideMenu from './menu/SideMenu';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SideMenu />
+    
+      
+      <main className="content">
+        <section className="content-section">
+          <img src="/인하월드 홈.png" alt="인하공전 축제홈피" style={{ maxWidth: '100%', borderRadius: '8px' }} />
+        </section>
+      </main>
     </div>
   );
 }

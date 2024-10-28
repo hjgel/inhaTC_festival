@@ -1,0 +1,42 @@
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    background-image: url('/public/사이드바.png'); /* 배경 이미지 파일 경로 */
+    background-size: cover; /* 배경 이미지를 전체에 맞추기 */
+    background-repeat: no-repeat; /* 이미지 반복 방지 */
+    background-position: center; /* 이미지 가운데 정렬 */
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .side-menu.open {
+    transform: translateX(250px);
+  }
+  
+  .menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .menu-content ul {
+    list-style: none;
+    padding: 20px;
+  }
+  
+  .menu-content li {
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  
