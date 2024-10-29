@@ -24,6 +24,7 @@ function SideMenu({ onMenuClick }) {
       document.removeEventListener('click', handleClickOutside);
     };
   }, [isOpen]);
+  
 
   // 메뉴 항목 클릭 시 메뉴를 닫는 함수
   const handleMenuItemClick = (path) => {
