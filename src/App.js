@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import SideMenu from './menu/SideMenu';
 import './App.css';
+import { Helmet } from 'react-helmet';
+
 
 function App() {
   const [selectedImages, setSelectedImages] = useState(['/인하월드 홈.png']); // 기본 이미지 설정
@@ -12,6 +14,12 @@ function App() {
 
   return (
     <div className="App">
+      <div>
+      <Helmet>
+        <title>inhatc festival</title>
+        <meta name="description" content="inhata festival" />
+      </Helmet>
+    </div>
       <SideMenu onMenuClick={handleMenuClick} />
       <main className="content">
         <section className="content-section">
