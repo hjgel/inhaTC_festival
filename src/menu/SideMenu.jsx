@@ -52,7 +52,7 @@ function SideMenu({ onMenuClick }) {
           <li onClick={() => handleMenuItemClick('/총학 이벤트.png')}>
             <img src="/sidemn/5.png" alt="이벤트" />
           </li>
-          <li onClick={() => handleMenuItemClick(['/타임테이블.png', '/타임테이블 31.png'])}>
+          <li onClick={() => handleMenuItemClick(['/타임테이블30.png', '/타임테이블 31.png'])}>
             <img src="/sidemn/6.png" alt="타임 테이블" />
           </li>
         </ul>
