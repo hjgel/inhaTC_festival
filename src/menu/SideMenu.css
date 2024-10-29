@@ -4,7 +4,7 @@
     left: -250px;
     width: 200px;
     height: 100%;
-    background-image: url('/public/사이드바.png'); /* 배경 이미지 파일 경로 */
+    background-image: url('./side.png'); /* 배경 이미지 파일 경로 */
     background-size: cover; /* 배경 이미지를 전체에 맞추기 */
     background-repeat: no-repeat; /* 이미지 반복 방지 */
     background-position: center; /* 이미지 가운데 정렬 */
