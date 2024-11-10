@@ -11,7 +11,6 @@
 
 그렇다면 학교 부스 위치를 알려주고, 어떤 행사가 있고 어떤 아티스트가 오는 지 알려주는 웹앱을 만들면 어떨까? 
 
-
 <br><br>
 <hr>
 
@@ -21,3 +20,9 @@
 
 
 ![Group 1000003259](https://github.com/user-attachments/assets/4cafe5cc-2e73-4d7b-80a9-e6034bed5451)
+
+
+<br><hr>
+### 개발 환경
+tools : visual studio code, figma
+framework : React
