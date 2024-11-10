@@ -11,5 +11,8 @@
 
 그렇다면 학교 부스 위치를 알려주고, 어떤 행사가 있고 어떤 아티스트가 오는 지 알려주는 웹앱을 만들면 어떨까? 
 
-- 메인 페이지 - 
-![인하월드 홈](https://github.com/user-attachments/assets/9d421698-9eab-473e-8cdf-3416cbece6a3)
+
+<br><br>
+<hr>
+### 디자인 
+![Group 1000003259](https://github.com/user-attachments/assets/5b4565ab-437d-4e07-93a7-bc040d72a822)
