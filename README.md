@@ -24,5 +24,5 @@
 
 <br><hr>
 ### 개발 환경
-tools : visual studio code, figma
+tools : visual studio code, figma <br>
 framework : React
